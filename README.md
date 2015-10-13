@@ -1,8 +1,9 @@
-Onboard LED Blink App
-============================
+# TwitterBlinker
+
 Very simple getting started project on the intel edison. Blinks everytime a tweet about a specific topic is posted.
 
 ## Installation
+
 1. Copy files into your Intel XDK Project
 2. Adjust env_example.js with your own credentials
 3. Rename env_example.js to env.js
