@@ -1,6 +1,6 @@
 # TwitterBlinker
 
-Very simple getting started project on the intel edison. Blinks everytime a tweet about a specific topic is posted.
+Very simple getting started node.js project for the intel edison. Blinks everytime a tweet about a specific topic is posted.
 
 ## Installation
 
