@@ -1,13 +1,15 @@
 {
-  "name": "TwitterBlinker",
-  "description": "",
+  "name": "twitter-blinker",
+  "description": "Very simple getting started project on the intel edison. Blinks everytime a tweet about a specific topic is posted.",
   "version": "0.0.5",
   "main": "main.js",
   "engines": {
     "node": ">=0.10.0"
   },
   "dependencies": {
-      "twitter" : "latest",
-      "mraa" : "latest"
-  }
+    "twitter": "latest",
+    "mraa": "latest"
+  },
+  "author": "Pascal Reichmuth, pascal.reichmuth@gmail.com",
+  "license": "MIT"
 }
