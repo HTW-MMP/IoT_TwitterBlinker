@@ -3,7 +3,7 @@ A simple node.js application intended to blink the onboard LED whenever a tweet 
 */
 
 // Variable
-var HashtagToTrack = 'WeArePerfectDay2';
+var HashtagToTrack = 'BackToTheFuture';
 
 // Require
 var mraa = require('mraa');
@@ -27,6 +27,7 @@ var client = new Twitter({
 // Setup Twitter Stream
 client.stream('statuses/filter', {track: HashtagToTrack}, function(stream) {
   console.log("Twitter Stream loaded. Looking for #"+HashtagToTrack);
+  // everytime a tweet who matches the filter is found, the led changes
   stream.on('data', function(tweet) {
 myOnboardLed.write(ledState?1:0); //if ledState is true then write a '1' (high) otherwise write a '0' (low)
 ledState = !ledState; //invert the ledState
