@@ -2,6 +2,10 @@
 
 Very simple getting started node.js project for the intel edison. Internal LED blinks everytime a tweet about a specific topic is posted.
 
+## Prerequisites
+
+Make sure that the mraa package is installed globaly (should be a default setting on every Intel Edison).
+
 ## Installation
 
 1. Copy files into your Intel XDK Project
